@@ -1,0 +1,17 @@
+git init                                                                                                                                      
+git status                                                                                                                                    
+git add testing.py                                                                                                                            
+git status                                                                                                                                    
+git rm --cached testing.py                                                                                                                    
+git status                                                                                                                                    
+git add testing.py                                                                                                                            
+git status                                                                                                                                    
+git commit -m "addded testing files"                                                                                                          
+git config --global user.name "Shivani Nikam"                                                                                                 
+git config --global user.email "nikamshivani2301@gmail.com"                                                                                   
+git commit -m "addded testing files"     
+git remote add origin https://github.com/shivncodes/git-for-devops.git                                                                        
+git remote -v                                                                                                                                 
+git remote set-url origin https://github.com/shivncodes/git-for-devops.git                           
+git remote -v                                                                                                                                 
+git push origin master   
